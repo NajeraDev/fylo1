@@ -1,0 +1,279 @@
+$blueintro: hsl(217, 28%, 15%);
+$bluemain: hsl(218, 28%, 13%);
+$bluefooter: hsl(216, 53%, 9%);
+$bluetestimonials: hsl(219, 30%, 18%);
+$accentcyan: hsl(176, 68%, 64%);
+$accentblue: hsl(198, 60%, 50%);
+$neutral: hsl(0, 0%, 100%);
+
+* {
+  body {
+    margin: 0px auto;
+    background-color: $bluemain;
+    color: $neutral;
+    font-family: "Open Sans", sans-serif;
+    .Emmanuel {
+      .morado1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        .morado1izquierda {
+          img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            max-width: 500px;
+          }
+          margin-bottom: 40px;
+        }
+        .morado1derecha {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          margin-left: 0px;
+          margin-right: 0px;
+          .h3 {
+            font-size: 135%;
+            margin-bottom: 30px;
+          }
+          .p1 {
+            margin-bottom: 30px;
+          }
+          .p2 {
+            margin-bottom: 20px;
+          }
+          .flyworks {
+            margin-left: 0px;
+            margin-bottom: 20px;
+            color: $accentcyan;
+            margin-bottom: 200px;
+          }
+        }
+      }
+      .verde {
+        padding-left: 60px;
+        padding-right: 60px;
+        .Satish {
+          padding: 20px;
+          border-radius: 15px;
+          background-color: $bluetestimonials;
+          margin-bottom: 40px;
+
+          .texto {
+            margin-bottom: 15px;
+          }
+
+          .autor {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            background-color: $bluetestimonials;
+
+            img {
+              border-radius: 50%;
+              margin: 0px;
+              width: 10%;
+              height: 10%;
+            }
+            .autortext {
+              margin: 0px;
+              margin-left: 20px;
+              background-color: $bluetestimonials;
+              p {
+                background-color: $bluetestimonials;
+              }
+              .p1 {
+                font-size: 70%;
+              }
+            }
+          }
+        }
+        .Bruce {
+          padding: 20px;
+          border-radius: 5px;
+          background-color: $bluetestimonials;
+          margin-bottom: 40px;
+          .texto {
+            margin-bottom: 15px;
+          }
+          .autor {
+            display: flex;
+            align-items: flex-end;
+            flex-direction: row;
+            background-color: $bluetestimonials;
+            img {
+              border-radius: 50%;
+              margin: 0px;
+              width: 10%;
+              height: 10%;
+            }
+            .autortext {
+              margin: 0px;
+              margin-left: 20px;
+              background-color: $bluetestimonials;
+              p {
+                background-color: $bluetestimonials;
+              }
+              .p1 {
+                font-size: 70%;
+              }
+            }
+          }
+        }
+
+        .Iva {
+          padding: 20px;
+          border-radius: 5px;
+          background-color: $bluetestimonials;
+          margin-bottom: 40px;
+          .texto {
+            margin-bottom: 15px;
+          }
+          .autor {
+            display: flex;
+            align-items: flex-end;
+            flex-direction: row;
+            background-color: $bluetestimonials;
+            img {
+              border-radius: 50%;
+              margin: 0px;
+              width: 10%;
+              height: 10%;
+            }
+            .autortext {
+              margin: 0px;
+              margin-left: 20px;
+              background-color: $bluetestimonials;
+              p {
+                background-color: $bluetestimonials;
+              }
+              .p1 {
+                font-size: 70%;
+              }
+            }
+          }
+        }
+      }
+      .Lima {
+        padding-left: 40px;
+        padding-right: 40px;
+        .EarlyAccessInput {
+          position: relative;
+          top: 200px;
+          padding: 40px;
+          height: 350px;
+          background-color: $blueintro;
+          display: flex;
+          flex-direction: column;
+          border-radius: 10px;
+          .h2 {
+            margin-bottom: 20px;
+          }
+          .p {
+            margin-bottom: 20px;
+          }
+
+          .Inputandbutton {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            input {              
+              margin-bottom: 20px;
+              width: 90%;
+              height: 50px;
+              border-radius: 25px;
+              outline: none;
+              border: none;
+            }
+            button {
+              background-image: linear-gradient(
+                to right,
+                hsl(176, 68%, 64%),
+                hsl(198, 60%, 50%)
+              );
+
+
+              width: 90%;
+              height: 50px;
+              border: none;
+              border-radius: 25px;
+              color: $neutral;
+              cursor: pointer;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+    footer {
+      padding-left: 40px;
+      padding-top: 300px;
+      background-color: $bluefooter;
+      .Fylo{
+        .ubicacion{          
+            list-style-image: url(../resources/icon-location.svg);
+            margin-top: 20px;
+            list-style-position: outside;
+            margin-left: 20px;
+        }
+        
+      }
+      .contacto{
+        .numero {
+            margin-top: 30px;
+            li{
+            list-style: url(../resources/icon-phone.svg);
+            }
+        }
+        .email{
+            margin-top: 30px;
+            li{
+                list-style: url(../resources/icon-email.svg);
+            }
+        }
+    }
+    .links1{
+        ul{
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column; 
+            list-style: none;
+            a{
+                color: $neutral;
+                text-decoration: none;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .links2{
+        ul{
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column; 
+            list-style: none;
+            a{
+                color: $neutral;
+                text-decoration: none;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .socialmedia{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        a{
+            color: $neutral;
+            text-decoration: none;
+            margin-left: 20px;
+            margin-left: 20px;
+            font-size: 20px;
+            border-radius: 50%;
+        }
+    }
+
+    }
+  }
+}
